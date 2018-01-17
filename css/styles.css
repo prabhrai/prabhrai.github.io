@@ -86,12 +86,18 @@ nav li a {
 .content {
   width: 70%;
   float: right;
-  background-color: #EDF2F4;
+  background-image: linear-gradient(to right, rgba(0,0,0,0.75) 25%,rgba(0,0,0,0.1) 75%), url("../images/newyork.jpg");
+  /* background :URL("../images/newyork.jpg") , rgba(0, 0,0 , 0.25) ; */
+  /* background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);   */
   color: #2B2D42;
   padding: 30px;
   overflow: hidden;
   min-height: 600px;
   margin-right: 20px;
+  /* background-image: URL("../images/newyork.jpg"); */
+  background-size: cover;
+  color:white;
+  /* font-size: 20px; */
 }
 
 footer {
@@ -132,7 +138,7 @@ td, th {
 }
 
 tr:nth-child(odd) {
-  background-color: #dddddd;
+  /* background-color: #dddddd; */
 }
 
 #contact-area {
