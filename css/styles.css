@@ -63,22 +63,23 @@ aside {
   background-color: #2B2D42;
   border-top: 1px white solid;
   border-bottom: 1px white solid;
-  min-height: 50px;
+  /* min-height: 50px; */
   
 }
 
 nav {
   text-align: left;
   /*height: 160px;*/
-  /* position: fixed; */
-  padding: 20px;
+  /* padding: 80px 0; */
   /* color: white; */
-  
+  min-height: 20px;
+  padding: 20px;
 }
 
 nav a {
+  margin: 0 10px;
+
   /*height: 10px;*/
-  padding: 10px;
   /*background-color: #EF233C ;*/
   color: white;
   background-color: #2B2D42;
@@ -137,7 +138,7 @@ th {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 50%;
+  width: 80%;
 }
 
 td, th {
